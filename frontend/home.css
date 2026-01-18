@@ -39,11 +39,16 @@ li{
 }
 h1,h2{
     font-family: Georgia, 'Times New Roman', Times, serif;
-    color: rgb(83, 15, 15);
+    color: whitesmoke;
+    text-align: justify;
 }
+
 .side-menu{
     position: fixed;
-    background: rgb(230, 220, 211);
+    background: rgba(30, 30, 30, 0.35); /* transparent layer */
+    backdrop-filter: blur(14px);
+   -webkit-backdrop-filter: blur(14px);
+    border-right: 3px solid rgba(255, 255, 255, 0.15);
     width: 33vh;
     min-height: 100vh;
     display: flex;
@@ -52,15 +57,15 @@ h1,h2{
 .side-menu .brand-name{
     height: 10vh;
     display: flex;
-    align-items: center;
+    align-items: auto;
     justify-content: center;
 
 }
 .side-menu li{
     font-size: 20px;
-    font-family: fantasy;
+    font-family:Cascadia Code,Consolas,'Courier New',monospace;
     padding: 10px 40px;
-    color:rgb(71, 2, 2);
+    color:whitesmoke;
     display: flex;
     align-items: center;
 
